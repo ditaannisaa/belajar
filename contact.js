@@ -8,7 +8,7 @@ function submitData() {
     let message = document.getElementById("input-message").value;
 
     if (name == ""){
-        return alert("Plese, insert your name")
+        return alert("Please, insert your name")
     } else if (email == ""){
         return alert("Please, insert your email")
     } else if (phone == ""){
